@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var altura = 1.68;
+        var peso = 80;
+        var soma = peso / (altura * altura)
+
+        console.log(soma.toFixed(1))
+
+
+        if (soma < 16.9) {
+
+            console.log("Muito abaixo")
+
+        } else if (soma > 16.9 & soma <= 18.4) {
+
+            console.log("Abaixo do peso")
+
+        } else if (soma > 18.4 & soma <= 24.9) {
+
+            console.log("Peso Normal")
+
+        } else if (soma > 24.9 & soma <= 29.9) {
+
+            console.log("Acima do Peso");
+
+        } else if (soma > 29.9 & soma <= 34.9) {
+
+            console.log("Obesidade Grau I");
+
+        } else if (soma > 34.9 & soma <= 40) {
+
+            console.log("Obesidade Grau II");
+
+        } else {
+            console.log("Obesidade Grau III");
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
